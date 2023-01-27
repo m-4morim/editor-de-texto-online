@@ -1,0 +1,32 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: var(--fonte);
+    margin: 28px;
+    width: 98%;
+    height: 60px;
+}
+
+.cabecalho-busca {
+    background-color: var(--cor-campo-de-busca);
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    width: 700px;
+}
+
+.cabecalho-busca::placeholder {
+    color: var(--fonte-cinza);
+    font-family: var(--fonte);
+}
+
+.cabecalho-perfil {
+    color: var(--fonte-branco);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+}

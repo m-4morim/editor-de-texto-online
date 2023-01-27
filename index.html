@@ -1,15 +1,61 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Challenge</title>
-        </head>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Editor de Texto Online</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-        <body>
-            <header>Teste</header>
-            <main>Conteúdo da página</main>
-            <footer>Redes Sociais</footer>
-        </body>
-    </html>
+    <body>
+        <nav class="cabecalho">
+            <div class="cabecalho-logo">
+                <a href="./index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div>
+                <input type="texto" placeholder="Busque por algo" class="cabecalho-busca">
+            </div>
+            <div class="cabecalho-perfil">
+                <img src="img/foto-perfil.png" alt="Foto do perfil">
+                <h4>Marcos</h4>
+            </div>
+        </nav>
+
+        <main class="principal">
+            <aside class="menu">
+                <h4 class="menu-titulo">MENU</h4>
+                <div class="menu-editor">
+                    <img src="img/icone-editor.png" alt="Ícone do editor" class="menu-editor-img">
+                    <h4>Editor de Código</h4>
+                </div>
+                <div class="menu-comunidade">
+                    <img src="img/icone-comunidade.png" alt="Ícone da comunidade" class="menu-editor-img">
+                    <h4>Comunidade</h4>
+                </div>
+            </aside>
+
+            <section class="editor">
+                <div class="editor-margem">
+                    <h4></h4>
+                </div>
+
+                <textarea name="editor-texto" cols="60" rows="20"></textarea>
+
+                <button class="editor-botao">Visualizar com highlight</button>
+            </section>
+
+            <section class="projeto-personalizacao">
+
+            </section>
+
+        </main>
+        <footer></footer>
+    </body>
+</html>

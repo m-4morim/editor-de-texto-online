@@ -1,0 +1,18 @@
+@import url("styles/header.css");
+@import url("styles/menu.css");
+@import url("styles/editor.css");
+
+:root {
+    --cor-de-fundo: #0A2647;
+    --fonte-branco: #FFFFFF;
+    --fonte-cinza: #7B8FA1;
+    --cor-campo-de-busca: #2B4865;
+    --fonte: "Open Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+}
