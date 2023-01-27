@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-family: var(--fonte);
-    margin: 28px;
-    width: 98%;
-    height: 60px;
+    font-family: var(--fonte-principal);
+    margin: auto;
+    padding: 30px;
+    width: 90%;
 }
 
 .cabecalho-busca {
     background-color: var(--cor-campo-de-busca);
-    color: var(--branco);
+    color: var(--fonte-branco);
     border: none;
     border-radius: 5px;
     padding: 1em;
@@ -19,7 +19,7 @@
 
 .cabecalho-busca::placeholder {
     color: var(--fonte-cinza);
-    font-family: var(--fonte);
+    font-family: var(--fonte-principal);
 }
 
 .cabecalho-perfil {

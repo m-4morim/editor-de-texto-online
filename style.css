@@ -4,15 +4,19 @@
 
 :root {
     --cor-de-fundo: #0A2647;
+    --cor-de-fundo-botao: #00337C;
     --fonte-branco: #FFFFFF;
     --fonte-cinza: #7B8FA1;
     --cor-campo-de-busca: #2B4865;
-    --fonte: "Open Sans";
+    --preto: #000000;
+    --fonte-principal: "Open Sans";
+    --fonte-editor: 'Source Code Pro', monospace;
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: var(--fonte);
+    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    margin: 5px 100px 5px 100px;
 }
