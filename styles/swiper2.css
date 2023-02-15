@@ -1,0 +1,23 @@
+.swiper {
+    width: 50%;
+}
+
+.swiper-titulo {
+    color: var(--fonte-branco);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 2em 0 1em 0;
+}
+
+.swiper-slide img {
+    width: 20%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: var(--fonte-branco);
+}
+
+.swiper-pagination {
+    position: initial;
+}
