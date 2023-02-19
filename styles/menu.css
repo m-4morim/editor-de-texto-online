@@ -1,18 +1,12 @@
-.principal {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-}
-
 .menu {
     color: var(--fonte-branco);
     display: flex;
     flex-direction: column;
     justify-items: center;
     font-size: 14px;
-    margin: 15px;
-    height: 100px;
-    width: 220px;
+    margin: 5px;
+    height: 10px;
+    width: 10px;
 }
 
 .menu-titulo {

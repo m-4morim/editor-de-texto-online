@@ -8,9 +8,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    height: 28em;
-    width: 52em;
+    position: ;
+    height: 5em;
+    width: 10em;
     background-color: #6BD1FF;
     border-radius: 12px;
     padding: 15px;
@@ -19,16 +19,16 @@
 .editor-texto {
     display: flex;
     justify-content: baseline;
-    position: absolute;
+    position: ;
     background-color: var(--preto);
     color: var(--fonte-branco);
     font-family: var(--fonte-editor);
     border-radius: 12px;
-    padding: 45px 20px 20px;
+    padding: 10px 5px 10px;
 }
 
 .editor-botoes-mac {
-    position: absolute;
+    position: ;
     top: 55px;
     left: 62px;
 }
