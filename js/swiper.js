@@ -26,7 +26,3 @@ var swiper = new Swiper('.swiper', {
         },
     },
 });
-
-
-
-// vendo a melhor forma de aplicar o Swiper

@@ -33,34 +33,41 @@
             </div>
         </nav>
 
-        <main class="principal">
-            <aside class="menu">
-                <h4 class="menu-titulo">MENU</h4>
-                <div class="menu-editor">
-                    <img src="img/icone-editor.png" alt="Ícone do editor" class="menu-editor-img">
-                    <h4>Editor de Código</h4>
+        <main>
+            <aside>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide menu">Menu</div>
+                    <div class="swiper-slide content">
+                        <div class="menu-button">
+                        <div class="bar">Editor de Código</div>
+                        <div class="bar">Comunidade</div>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-                <div class="menu-comunidade">
-                    <img src="img/icone-comunidade.png" alt="Ícone da comunidade" class="menu-editor-img">
-                    <h4>Comunidade</h4>
                 </div>
             </aside>
 
-            <section class="editor">
-                <div class="container">
-                    <textarea name="editor-texto" cols="30" rows="10" class="editor-texto"></textarea>
-                    <img src="img/mac-botoes.png" alt="Botões do MAC" class="editor-botoes-mac">
-                </div>
+            <section class="principal">
+                <section class="editor">
+                    <div class="container">
+                        <textarea name="editor-texto" cols="30" rows="10" class="editor-texto"></textarea>
+                        <img src="img/mac-botoes.png" alt="Botões do MAC" class="editor-botoes-mac">
+                    </div>
 
-                <button class="editor-botao">Visualizar com highlight</button>
+                    <button class="editor-botao">Visualizar com highlight</button>
+                </section>
+
+                <section class="projeto-personalizacao">
+
+                </section>
             </section>
 
-            <section class="projeto-personalizacao">
-
-            </section>
+            <footer></footer>
         </main>
-
-        <footer></footer>
-
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/swiper.js"></script>
     </body>
 </html>

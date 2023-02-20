@@ -1,7 +1,7 @@
 @import url("styles/header.css");
 @import url("styles/menu.css");
 @import url("styles/editor.css");
-/* @import url("styles/swiper.css");*/
+@import url("styles/swiper.css");
 
 :root {
     --cor-de-fundo: #0A2647;
@@ -20,17 +20,10 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    margin: 5px 20px 5px 20px;
+    margin: 10px 20px;
 }
 
-.principal {
-    display: flex;
-    grid: ;
+body main {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
 }
-
-
-
-
-display: flex;
-justify-content: space-around;
-margin: auto;
